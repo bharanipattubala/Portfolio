@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bharani Pattubala Portfolio</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Animate On Scroll Library CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1 class="logo">Bharani Pattubala</h1>
+    <p>Web Developer | Python Developer</p>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="section hero-section">
+    <div class="hero-content">
+      <h2>Hello, I'm Bharani Pattubala<span class="typewrite" data-period="2000" data-type='[ "Bharani Pattubala", "a Developer", "a Designer", "a Creator" ]'></span></h2>
+      <p>Web Developer | Python Developer</p>
+      <a href="#contact" class="btn">Hire me</a>
+      <a href="https://drive.google.com/file/d/18UgCFqVolxxcIM1aSylcGcv0R7nLfETU/view?usp=drive_link" class="btn border" >Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section fade-in">
+    <img src="bharani.jpg" alt="Your Photo" class="profile">
+    <h2>Career Objective</h2>
+    <p>To build a successful career in Computer Science and Engineering by applying my technical skills in software development, problem-solving, and web technologies. I aim to contribute to innovative projects, continuously learn emerging technologies, and grow into a proficient software professional.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section fade-in alt-bg">
+    <h2>Skills</h2>
+    <div class="grid skills-grid">
+      <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50"/>HTML5</div>
+      <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50"/>CSS3</div>
+      <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50"/>JavaScript</div>
+      <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" height="50"/>React</div>
+      <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>Python</div>
+      <div class="card"><img src="django.png" width="50" height="50"/> Django</div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section fade-in">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Software development Intern — Bluestock Fintech</h3>
+        <span>May 2025- June 2025</span>
+        <p>Built REST APIs using Django REST Framework to handle user data & authentication.</p> 
+        <p>Optimized SQL queries, reducing response time by X%.</p>
+        <p>Worked with Git, Agile tools to collaborate with team of 5+ developers</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Web Development Intern — ApexPlanet Software Pvt. Ltd.</h3>
+        <span>May 2025 – July 2025 (Virtual)</span>
+        <p>Built and styled responsive web pages using HTML5, CSS3, and JavaScript, ensuring cross-device compatibility.</p>
+        <p>Worked on creating interactive UI components like navigation menus, forms, and animations for better user experience.</p>
+        <p>Collaborated on a team project to design a mini portfolio and landing page, focusing on clean design and functionality.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section alt-bg fade-in">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card project">
+        <h3>Portfolio Website</h3>
+        <p>A fully responsive personal portfolio showcasing my skills, projects, and contact details. Built with <strong>HTML, CSS, and JavaScript</strong>. Includes smooth scrolling, animations, and a contact form integration.</p>
+      </div>
+      <div class="card project">
+        <h3>Data Visualization Dashboard</h3>
+        <p>Developed a dynamic and user-friendly Data Visualization Dashboard to transform raw data into actionable insights using modern web technologies. This project demonstrates expertise in HTML, CSS, and JavaScript, along with popular charting libraries (e.g., Chart.js, D3.js) to create interactive and visually appealing charts and graphs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section fade-in">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your name" required />
+      <input type="email" placeholder="Your email" required />
+      <textarea placeholder="your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+   
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Pattubala Bharani</p>
+    <div class="socials">
+      <a href="https://github.com/bharanipattubala"><img src="github.png" height="30" width="30"></a>
+      <a href="https://www.linkedin.com/in/bharani-pattubala-9615082a2"><img src="linkedin.png" height="25" width="25"></a>
+      <a href="mailto:pattubalabharani@gmail.com"><img src="email.jpeg" height="25" width="25"></a>
+      <a href="https://wa.me/919652237231"><img src="whatspp.jpeg" height="25" width="25"></a>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+  <!-- Animate On Scroll Library JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
